@@ -1,0 +1,93 @@
+
+        @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap');
+
+        body {
+            font-family: 'Poppins', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #ffffff;
+            text-align: center;
+            color: black;
+        }
+
+        .header {
+            background: navy;
+            padding: 10px 0;
+            text-align: center;
+            background-color: #000080;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .header img {
+            width: 50%;
+            max-height: 150px;
+            margin-bottom: 10px;
+        }
+
+        .nav {
+            background-color: black;
+            padding: 15px;
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+        }
+        .nav a {
+            color: white;
+            text-decoration: none;
+            padding: 12px 25px;
+            font-size: 18px;
+            background-color: navy;
+            border-radius: 8px;
+            transition: all 0.3s ease;
+            font-weight: bold;
+            cursor: pointer;
+        }
+        .nav a:hover {
+            background-color: white;
+            color: black;
+            transform: scale(1.1);
+        }
+
+        .content {
+            width: 80%;
+            max-width: 900px;
+            margin: 30px auto;
+            padding: 40px;
+            background-color: white;
+            border-radius: 15px;
+            box-shadow: 0 6px 15px rgba(0, 0, 0, 0.3);
+        }
+
+        h2 {
+            color: navy;
+            font-size: 24px;
+        }
+
+        .gallery {
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+            flex-wrap: wrap;
+            margin-top: 20px;
+        }
+        .gallery img {
+            width: 30%;
+            height: 200px;
+            object-fit: cover;
+            border-radius: 10px;
+            transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+        }
+        .gallery img:hover {
+            transform: scale(1.05);
+            box-shadow: 0 6px 15px rgba(0, 0, 0, 0.4);
+        }
+
+        .footer {
+            background-color: black;
+            color: white;
+            padding: 15px;
+            font-size: 14px;
+            margin-top: 30px;
+        }
